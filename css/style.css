@@ -1,0 +1,185 @@
+:root{
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+}
+.bggreen{background-color: var(--yasil);}
+.bgred{background-color: var(--qirmizi) !important;}
+.bgwhite{background-color: #fff;}
+.txtred{color: var(--qirmizi) !important;}
+.txtgreen{color: var(--yasil);}
+.txtwhite{ color: #fff !important;}
+.vh50{min-height: 50vh;}
+.center{text-align: center;}
+.rightabsolute{position: absolute; bottom: 45px;right: 50px;}
+.leftabsolute{position: absolute; bottom: 45px;left: 50px;}
+.relative{position: relative;}
+.uppercase{text-transform: uppercase;}
+.shadow{box-shadow: 0 0 10px #858484;}
+.padding20{padding: 20px;}
+header{
+    background: url('../img/headerbg .jpg') 60% 50%/cover;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+#menu li a{
+    font: .8em "Avenir Next";
+    text-transform: uppercase;
+    color: #fff;
+}
+nav{ padding: 40px;}
+h1{
+    font: 2em "Myriad Pro";
+    color: #fff;
+}
+header h5{
+    font: 1em "Myriad Pro";
+    letter-spacing: 3px;
+    color: #fff;
+}
+#head{
+    position: absolute;
+    left: 7.25vw;
+    bottom: 17vh;
+}
+.green-cards{ padding: 60px 0;}
+.green-cards svg{
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    color: #fff;
+}
+.green-cards h3{
+    font: 1.5em 'Open Sans';
+    padding: 20px 0;
+}
+.green-card p{font: .9em 'Proxima Nova';}
+.green-card a{
+    display: inline-block;
+    color: #fff;
+    font: .9em 'Proxima Nova';
+    padding: 15px 0;
+}
+#fitnessfirst{background: url('../img/fitnessfirst.jpg') center/cover;}
+#yourbody{background: url('../img/yourbody.jpg') center/cover;}
+#lifestyle{background: url('../img/lifestyle.jpg') center/cover;}
+#summeroffun{background: url('../img/summeroffun.jpg') center/cover;}
+#grape{background: url('../img/grape.jpg')  center/cover;}
+#mango{background: url('../img/mango.jpg') center/cover}
+#footerbg{background: url('../img/footerbg.jpg') center/cover;
+height: 100vh;}
+#footer{
+    background-color: #0c1119;
+}
+.row h5{
+    padding-top: 50px;
+    font: .9em 'Montserrat';
+}
+.row h3{font: 300 2em 'Open Sans';}
+.row p{
+    font: .8em 'Open Sans';
+    color: #656e74;
+}
+.row a{font: .8em 'Open Sans';}
+.row i{
+    font-size: 1em;
+    padding: 10px 0;
+    color: #a8a6a6;
+}
+#trackyour i{
+    font-size: 1.8em;
+    float: right;
+}
+#trackyour p{ padding: 20px 0;}
+h6{
+    font: .8em 'Montserrat';
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+.fa-lemon{
+    font-size: 2em !important;
+    float: right;
+}
+#lemon p{ padding: 30px 0;}
+#summeroffun{font-family: "Open Sans";}
+.row h4{   display: inline-block;}
+#fun{ padding: 60px 20px;}
+.habits p{
+font:.8rem 'Open Sans';
+padding: 30px 0;
+}
+#footerbg h3{
+    font: 2em 'Open Sans';
+    padding-top: 10%;
+}
+#footerbg p{font: 1em 'Open Sans';}
+.footer-col h5,p{font: .9rem 'Open Sans';}
+.footer-col p{color: #8297a7 !important;}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    margin: 15px 15px 0 0;
+}
+.footer-col .fa-brands{font-size: 1.3em;}
+.fb{background-color: #2e3092;}
+.tw{background-color: #00adef;}
+.yt{background-color: #ed3123}
+.ln{background-color: #16198f;}
+.input{
+    width: 200px;
+    margin: 6px;
+    border-radius: 3px;
+    padding: 20px;
+    border: 0;
+}
+button{
+    padding: 17.8px !important;
+    font:.9em 'Proxima Nova';
+    font-family: "Proxima Nova";
+    background-color: var(--yasil);
+}
+.width{width: 340px;}
+/* D E S K T O P    V E R S I O N */
+@media only screen and (min-width: 768px){
+    .floatleft{float: left;}
+    .floatright{float: right;}
+    .col33{width: 33.33%;}
+    .col66{width: 66.66%;}
+    .flex{display: flex;}
+    header{ text-align: initial;}
+    #menu li{
+        display: inline-block;
+        margin-left: 2.5vw;
+    }
+    .green-cards::after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .container::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+    .green-card{
+        width: 25%;
+        float: left;
+    }
+    .container{
+        max-width: 1180px;
+        margin: auto;
+    }
+    #fun{
+        padding: 60px ;
+    }
+    #footerbg h3{
+        font-size: 2.7em;
+    }
+    .footer-col{width: 33%;}
+    .footer-row{float: right;}
+}
